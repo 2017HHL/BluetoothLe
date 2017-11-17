@@ -1,11 +1,11 @@
 # BluetoothLe for Android 
 ## 蓝牙BLE开发示例
 ## 声明所需要的权限
-- <uses-permission android:name="android.permission.BLUETOOTH"/>
+- uses-permission android:name="android.permission.BLUETOOTH"
 使用蓝牙所需要的权限
-- <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+- uses-permission android:name="android.permission.BLUETOOTH_ADMIN"
 使用扫描和设置蓝牙的权限（申明这一个权限必须申明上面一个权限）
-- <uses-feature android:name="android.hardware.location.gps" />
+- uses-feature android:name="android.hardware.location.gps"
 在 Android 6.0 及以上需要动态设置打开位置权限
 
 

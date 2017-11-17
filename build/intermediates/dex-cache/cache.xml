@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Apresys\BluetoothLe_demo01\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\libs\internal_impl-24.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e57fba0a2d57d3501d8f4ff44c23092978804845">
+        <dex dex="E:\Apresys\BluetoothLe_demo01\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-alpha1_f2c2a35c3d02fa51cd687fa0e9fdb72f2b1d9471.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0-alpha1\support-annotations-24.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b8062546971a3d196343232a19a3c0016272ba47">
+        <dex dex="E:\Apresys\BluetoothLe_demo01\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0-alpha1_f4cc17066b74b23763c4864ecff74f951e814694.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Apresys\BluetoothLe_demo01\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9aaaea3a89040f8176f810c85e288fc74d5d1f12">
+        <dex dex="E:\Apresys\BluetoothLe_demo01\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0-alpha1_7bd2190d12c70f1cdf720a2a9ce882a62ff62df8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Apresys\BluetoothLe_demo01\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1f1c7067e22acf05bddbca9f94422050cd848a86">
+        <dex dex="E:\Apresys\BluetoothLe_demo01\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.0.0-alpha1_f765e504738e21d57f49bdf6b0f1583493bd54ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Apresys\BluetoothLe_demo01\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="E:\Apresys\BluetoothLe_demo01\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-18.0.0_8e4769e675748841f067cc8a14ffb42d78460ae8.jar" />
+    </item>
+
+</items>

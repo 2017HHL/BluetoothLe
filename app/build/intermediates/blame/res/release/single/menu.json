@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Apresys\\BluetoothLe_demo01\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "E:\\Apresys\\BluetoothLe_demo01\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Apresys\\BluetoothLe_demo01\\app\\build\\intermediates\\res\\merged\\release\\menu\\gatt_services.xml",
+        "source": "E:\\Apresys\\BluetoothLe_demo01\\app\\src\\main\\res\\menu\\gatt_services.xml"
+    }
+]

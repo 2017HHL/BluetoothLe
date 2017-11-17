@@ -1,0 +1,4 @@
+#Fri Nov 17 10:24:33 CST 2017
+base.0=E\:\\Apresys\\BluetoothLe_demo01\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=E\:\\Apresys\\BluetoothLe_demo01\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex

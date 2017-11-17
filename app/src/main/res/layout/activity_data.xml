@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bluetooth.le.DataActivity">
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#ffffff">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/backImageView"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:clickable="true"-->
+            <!--android:onClick="backImageViewClick"-->
+            <!--android:src="@drawable/fanhui" />-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/Search"-->
+            <!--android:layout_width="33dp"-->
+            <!--android:layout_height="33dp"-->
+            <!--android:layout_margin="12dip"-->
+            <!--android:background="#45a8b8"-->
+            <!--android:src="@drawable/search"-->
+            <!--android:visibility="gone" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/pushTitle"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingRight="50dp"-->
+            <!--android:text="返回"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="#000"-->
+            <!--android:textSize="18dp"-->
+            <!--android:textStyle="bold" />-->
+
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        >
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:text="测距"
+            android:textColor="#000"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="角度"
+            android:textColor="#000"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="方位"
+            android:textColor="#000"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="GPS"
+            android:textColor="#000"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+</LinearLayout>

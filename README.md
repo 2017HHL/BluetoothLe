@@ -70,7 +70,6 @@ BluetoothGattService service = gattt.getService(SERVICE_UUID);
 BluetoothGattCharacteristic characteristic = gatt.getCharacteristic(CHARACTER_UUID);
 gatt.readCharacteristic();
 
-
 往蓝牙数据通道的写入数据
 BluetoothGattService service = gattt.getService(SERVICE_UUID);
 BluetoothGattCharacteristic characteristic = gatt.getCharacteristic(CHARACTER_UUID);

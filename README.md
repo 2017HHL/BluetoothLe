@@ -1,19 +1,18 @@
 # BluetoothLe for Android 
 蓝牙BLE开发示例
 声明所需要的权限
-<uses-permission android:name="android.permission.BLUETOOTH"/> 使用蓝牙所需要的权限
-<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/> 使用扫描和设置蓝牙的权限（申明这一个权限必须申明上面一个权限）
+<uses-permission android:name="android.permission.BLUETOOTH"/>
+使用蓝牙所需要的权限
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+使用扫描和设置蓝牙的权限（申明这一个权限必须申明上面一个权限）
 <uses-feature android:name="android.hardware.location.gps" />
 在 Android 6.0 及以上需要动态设置打开位置权限
 
 
 连接蓝牙前的初始化工作
 private BluetoothAdapter mBluetoothAdapter;
-
- // Initializes Bluetooth adapter.
- final BluetoothManager bluetoothManager =
-     (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
- mBluetoothAdapter = bluetoothManager.getAdapter();
+Initializes Bluetooth adapter.final BluetoothManager bluetoothManager =(BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
+mBluetoothAdapter = bluetoothManager.getAdapter();
 
 如果检测到蓝牙没有开启，尝试开启蓝牙
 if (mBluetoothAdapter == null || !mBluetoothAdapter.isEnabled()) {
@@ -46,7 +45,7 @@ private void scanLeDevice(final boolean enable) {
 
 
 发现服务
-    // 管理服务的生命周期
+     管理服务的生命周期
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
 
         @Override
@@ -66,14 +65,13 @@ private void scanLeDevice(final boolean enable) {
         }
     };
     
-    
-// 读取数据
+读取数据
 BluetoothGattService service = gattt.getService(SERVICE_UUID);
 BluetoothGattCharacteristic characteristic = gatt.getCharacteristic(CHARACTER_UUID);
 gatt.readCharacteristic();
 
 
-//往蓝牙数据通道的写入数据
+往蓝牙数据通道的写入数据
 BluetoothGattService service = gattt.getService(SERVICE_UUID);
 BluetoothGattCharacteristic characteristic = gatt.getCharacteristic(CHARACTER_UUID);
 characteristic.setValue(sendValue);
